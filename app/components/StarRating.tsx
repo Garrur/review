@@ -12,7 +12,7 @@ interface StarRatingProps {
             key={index}
             type="button"
             onClick={() => setRating(index + 1)}
-            className={`text-2xl ${index < rating ? 'text-yellow-500' : 'text-gray-300'}`}
+            className={`text-2xl ${index < rating ? 'text-yellow-400' : 'text-gray-300'}`}
           >
             ★
           </button>
